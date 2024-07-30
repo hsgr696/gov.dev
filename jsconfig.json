@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "ESNext",
+		"jsx": "react-jsx",
+		"allowJs": true,
+		"noEmit": true,
+		"resolveJsonModule": true,
+		"moduleResolution": "Node",
+		"allowSyntheticDefaultImports": true,
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["lib/*"]
+		}
+	},
+	"exclude": ["node_modules", "**/node_modules/*", "dist", "**/dist/*"],
+	"include": ["lib/**/*", "src/main.jsx"]
+}

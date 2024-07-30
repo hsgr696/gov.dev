@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	@apply tracking-normal;
+}
+
+body {
+	@apply font-sans text-base antialiased;
+}
